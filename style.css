@@ -1,0 +1,149 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+
+}
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.logo {
+    width:1%;
+}
+.logo-container {
+    display: flex; 
+    align-items: center;
+}
+
+.frase {
+    margin-left:370px; 
+    font-size: 20px; 
+    color: #0A3871; 
+    font-weight: 600;
+}
+
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.text-area {
+    background-color: white;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensagem {
+    background-color: white;
+    background: white;
+    background-image: url("");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 15px;
+}
+
+.btn-desencriptar {
+
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 28px;
+    width: 270px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 270px;
+}
+
+.btn-copiar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 380px;
+    position: absolute;
+    width: 310px;
+}
+
+
+.informacao {
+    color: #0A3871;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.copiar-sucesso-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#0A3871;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.rodape {
+    font-size: 10px;
+    color: #0A3871;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+.rodape a {
+    font-size: 15px;
+    text-decoration: none; 
+    color: #0A3871; 
+    font-weight: 600;
+
+}
+
+.autor{
+    font-size: 15px;
+    font-weight: 600;
+   
+}
